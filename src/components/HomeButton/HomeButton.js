@@ -1,7 +1,7 @@
 import React from "react";
 import "./HomeButton.css";
 import { Button } from "reactstrap";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import "react-awesome-button/dist/themes/theme-blue.css";
 
 const HomeButton = props => {
