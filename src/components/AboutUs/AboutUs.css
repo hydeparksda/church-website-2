@@ -1,0 +1,129 @@
+.AboutUs {
+  background: white; /* fallback for old browsers */
+  
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+.SDABanner {
+    background-image: url("SDALogo.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;  
+    background-size: contain;
+    background-position: center;
+    background-color: rgb(247,247,247);
+    height: 400px;
+    width: 100%;
+}
+
+.PastorContent {  
+    height: 300px;
+    width: 100%;
+}
+  
+  .container {
+    padding: 64px;
+   background-color:rgb(213,169,58);
+   max-width: 100%;
+  }
+  .history-container {
+    background:  #FFFAFA;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column-66 {
+    width: 40%;
+    padding: 20px;
+  }
+  
+  .column-33 {
+    float: left;
+    width: max-width;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+
+  
+  .large-font {
+    font-size: 48px;
+  }
+  
+  .OurPastor {
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 64px
+  }
+  
+  .button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+
+  }
+  .AboutUsContent {
+    /* position: absolute; Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: white; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+      font-size: 1.2rem;
+      border-radius: 20px;
+
+      /* text-shadow: 1px 1px 2px black, 0 0 5px black, 0 0 5px black; */
+
+  }
+  .PastorPhoto {
+    display: block;
+    height: 471px;
+    width: 471px;
+    border-radius: 20px;
+    max-width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .History {
+    text-align: center;
+  }
+ .historyTitle {
+    animation: slide-left 3s;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px grey;
+  }
+  .History > h2 {
+    /* width: 60%;
+    background:	#d5a93b; */
+    text-shadow: 2px 2px 2px grey;
+    color: black;
+    /* border-radius: 5px; */
+    text-align: center;
+  }
+  .History > h3 {
+    width: 60%;
+    margin-left: 20%;
+    text-shadow: 2px 2px 2px grey;
+    background:	#d5a93b;
+    box-shadow: 2px  2px 4px grey;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+  }
+  @media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  }

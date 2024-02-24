@@ -1,0 +1,54 @@
+.PastorTab {
+    background-color:#E0E0E0;
+    color: black;
+    clip-path: polygon(0 7%, 100% 0, 100% 94%, 0 100%);
+}
+
+.pastor-container {
+   padding: 64px;
+   background:  #aa3148;
+   display: flex;
+  }
+  /* Slide in left animation */
+  .PastorTitle {
+    animation: slide-left 3s;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+  .pastor-image {
+      height: 400px;
+      width: 400px;
+  }
+  .pastor-photo-col {
+      flex-direction: column;
+      justify-content: left;
+      height: 100%;
+  }
+  .pastor-photo-col > img:first-of-type {
+      padding-bottom: 40px;
+      margin-left: 40px;
+      height: 400px;
+      width: 400px;
+  }
+  .PStatement {
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+    color: #E0E0E0;;
+    font-weight: 900px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .pastor-description-col {
+      width: 60%;
+  }
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

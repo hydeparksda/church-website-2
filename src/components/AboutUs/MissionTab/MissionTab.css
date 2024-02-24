@@ -1,0 +1,35 @@
+.MissionTab {
+    background-color: white;
+    color: black;
+}
+
+.mission-container {
+   padding: 64px;
+   background-color:#FFFAFA;
+   max-width: 100%;
+  }
+  /* Slide in left animation */
+  .MissionTitle {
+    animation: slide-left 3s;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 2px 4px grey;
+  }
+  .MStatement {
+    font-size: 25px;
+    color: black;
+    text-shadow: 1px 1px 2px grey;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }

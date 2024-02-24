@@ -1,0 +1,40 @@
+.LiveVideo {
+    
+}
+
+.CorinthiansBanner, .KeyNoteBanner {
+    width: 20%;
+    height: 650px;
+    filter: brightness(50%);
+}
+
+.fakeVideo {
+    height: 650px;
+    width: 60%;
+}
+h1 {
+    text-align: center;
+    color: #aa3148;
+}
+
+.LiveHeader {
+    height: 100px;
+    background-image: url('praiseBackground.jpeg');
+    background-position: center;
+}
+
+.OurLivesMatter {
+    width: 10%;
+    height: 125px;
+}
+
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #aa3148;    }
+    49%{    color: gold; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #aa3148;    }
+}

@@ -1,0 +1,35 @@
+.give-container {
+    width: 80%;
+    margin:  auto;
+}
+.tmol-banner {
+    width: 100%;
+    border-radius: 0;
+}
+.outer {
+    background:  #FFFAFA;
+}
+.online-giving {
+    font-family: 'Poppins', sans-serif;
+    font-size: 5.0em;
+    text-align: center;
+    padding-top: 100px;
+    /* text-shadow: 2px 2px 2px grey; */
+}
+
+.online-giving-p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: gray;
+    margin: auto;
+    text-align: center; 
+    /* text-shadow: 2px 2px 2px lightgrey; */
+}
+
+.give-button {
+   margin: 20px 42%;
+}
+.give-button > a, .give-button > a:hover, .give-button > a:focus {
+    text-decoration: none;
+    color: white;
+}

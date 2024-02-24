@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.JoinUsBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color:  black;
+    background-color:  #f6f6f6;
+    width: 100%;
+    height: 400px;
+}
+.ServicesTime {
+    text-align: center;
+}
+h1 {
+    font-size: 4.0em;
+    font-weight: 800;
+    color: #aa3148;
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 3.5em;
+    margin: auto;
+    
+}
+h3 {
+    font-size: 2.5em;
+    font-weight: light;
+}
+
+h3 > span {
+    color: #aa3148;
+}
+
+.btn-primary {
+    background: #aa3148;
+    border: none;
+    width: 150px;
+    height: 80px;
+    margin: auto;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.3em;
+    
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active .btn-primary > Link{
+    background: #cb586d !important;
+}
+.new-here-link, .new-here-link:hover, .new-here-link:focus, .new-here-link:active {
+    text-decoration: none;
+    color: white;
+}

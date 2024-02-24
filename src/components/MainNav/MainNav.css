@@ -1,0 +1,85 @@
+/* GLOBAL STYLES */
+.logo {
+  height:100%;
+  width: 100%;
+}
+
+.list_link {
+   color: black;
+   font-weight: 600;
+   letter-spacing: 2px;
+   text-decoration: none;
+   background: white;
+   padding: 45px 5px;
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+}
+.logo_container {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: 10px;
+   background: white;
+}
+
+li img {
+   width: 80px;
+   height:inherit;
+   background: white;
+   border-radius: 0;
+   box-shadow: 0 0; 
+   margin: auto;
+}
+.list_link:hover {
+   background:lightgrey;
+   color: white;
+   text-decoration: none;
+}
+.list_link:focus {
+   background: lightgrey;
+   color: white;
+  }
+
+.navigation {
+   box-shadow: 3px 3px 		#F5F5F5;
+   margin-bottom: 4px;
+}
+.navigation ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+.navigation li {
+   flex: 3;    
+}
+
+.navigation .user {
+   flex: 1;
+}
+
+@media all and (max-width: 1000px) {
+ .navigation ul {
+    flex-wrap: wrap;
+ }
+ 
+ .navigation li {
+    flex: 1 1 50%;
+ }
+
+ .navigation .user {
+    flex: 1 1 33.33%;
+ }
+}
+
+@media all and (max-width: 480px) {
+ .navigation li {
+    flex-basis: 100%;
+ }
+
+ .navigation .user {
+    flex-basis: 50%;
+ }
+}

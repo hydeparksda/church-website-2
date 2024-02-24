@@ -1,0 +1,98 @@
+.LocationBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    text-align: center;
+
+    background-image: url('MainChurchPhoto.jpg');
+    /* filter: grayscale(100%); */
+    color: #d5a93b;
+    text-shadow: 2px 2px #aa3148;
+
+    opacity: 0.7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 850px;
+}
+
+.LocationBanner > h1 {
+    font-size: 5.5em;
+}
+.LocationBanner > h3 {
+    color: #d5a93b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.5em;
+}
+
+.coreServicesBtns {
+display: flex;
+flex-direction: row;
+justify-content: center;
+justify-content: space-evenly;
+margin-top: 50px;
+
+}
+  /*
+   Green */
+  .give {
+    border-radius: 15px;
+    border-color: #d5a93b;
+    color: #d5a93b;
+    border: 2px solid #d5a93b;
+    background-color: transparent;
+    padding: 14px 28px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    width: 10%;
+  }
+  
+  .give:hover {
+    /* background-color: #c4992e; */
+    border-color: white;
+  }
+
+  .give span {
+    color: #d5a93b;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .give span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .give:hover span {
+    padding-right: 25px;
+    color: white;
+  }
+  
+  .give:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .locationIcon {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  .locationImage {
+    display: block;
+    height: 471px;
+    width: 471px;
+    border-radius: 20px;
+    max-width: 100%;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  }

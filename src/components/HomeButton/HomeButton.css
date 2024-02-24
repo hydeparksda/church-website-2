@@ -1,0 +1,23 @@
+.side-button {
+  background: white;
+  color: black;
+}
+.middle-button {
+  color: #d5a93b;;
+  background: white;
+}
+.middle-button,
+.side-button {
+ 
+  text-align: center;
+  width: 33.33%;
+  height: 80px;
+  float: left;
+  letter-spacing: 2px;
+  font-weight: 700;
+  display: flex; 
+  
+}
+span {
+  color: #aa3148;
+}
